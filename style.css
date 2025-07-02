@@ -1,0 +1,87 @@
+/* adicionando fonte */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0px;
+    font-family: Montserrat;
+}
+
+h{
+    font-family: "Montserrat", sans-serif;
+}
+
+.container{
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+}
+
+header{
+    height: 70px;
+    background-color: #02A28F;
+    color: white;
+
+
+}header > #title{   
+    margin: 0 1rem 1rem 6rem;
+    padding-top: 1rem;
+}   
+.imageBanner{
+    margin-left: 50px;
+    margin-top: 1rem;
+}
+.imageBanner > img{
+    border-radius: 10px;
+    width: 120%;
+}.imageBanner > img:hover{
+    transform: translateY(-7px);
+    transition-duration: 0.5s;
+}
+
+.side-cards{
+    margin-top: 1.7rem;
+    margin-right: 20px;
+    margin-left: 150px;
+}
+
+.side-cards > h2{
+    background-color: #02A28F;
+    color: white;
+    border-radius: 10px;
+    padding-left: 1rem;
+    height: 3rem;
+    padding-top: 5px;
+    margin-right: 30px;
+    width: 69%;
+}
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 1rem;
+    box-shadow: #0001 4px 4px 4px 4px;
+    width: 70%;
+    border-radius: 10px;
+    margin-top: 1rem;
+    padding: 2px;
+
+}.cards > img{
+    border-radius: 10px;
+    width: 23%;
+    margin-top: 1.5rem;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}.cards > h2{
+    margin-top: 15rem;
+}.cards:hover{
+    cursor:pointer;
+    box-shadow: #02A28F 0 0 5px ;
+    transform: translateY(-7px);
+    transition-duration: 0.5s;
+}
+
+
+.cards-content{
+    margin-top: 15px;
+}
