@@ -14,18 +14,16 @@ h{
     display: grid;
     grid-auto-flow: column;
     grid-auto-columns: 1fr;
+    gap: 4rem;
 }
 
 header{
-    height: 70px;
+    padding: 10px;
     background-color: #02A28F;
     color: white;
 
 
-}header > #title{   
-    margin: 0 1rem 1rem 6rem;
-    padding-top: 1rem;
-}   
+}  
 .imageBanner{
     margin-left: 50px;
     margin-top: 1rem;
@@ -88,8 +86,8 @@ header{
 
 #recent-posts-header{
     display: flex;
-    width: 54%;
-    margin-left: 70px;
+    width: 100%;
+    margin-left: 30px;
     border-radius: 10px;
     gap: 70%;
     height: 8vh;
@@ -99,7 +97,7 @@ header{
 }
 
 .rp-cards-row{
-    margin-left: 70px;
+    margin-left: 30px;
     margin-top: 1rem;
     margin-bottom: 1rem;
     display: flex;
@@ -109,7 +107,7 @@ header{
 
 .rp-card{
     box-shadow: #0001 4px 4px 4px 4px;
-    width: 25%;
+    width: 50%;
     border-radius: 10px;
     
     
@@ -122,4 +120,16 @@ header{
     padding-left: 1rem;
     padding-top: 3px;
     padding-bottom: 3px;
+}
+
+#categories-title{
+    width: 75%;
+    border-radius: 10px;
+
+}
+
+.categorie{
+    color: #02A28F;
+}.dt-card{
+    color:#616161;
 }
