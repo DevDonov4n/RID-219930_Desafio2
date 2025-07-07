@@ -100,25 +100,28 @@ header{
     margin-left: 30px;
     margin-top: 1rem;
     margin-bottom: 1rem;
-    display: flex;
-    flex-direction: row;
-    gap: 1rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
     width: 100%;
 }
 
 .rp-card{
     box-shadow: #0001 4px 4px 4px 4px;
-    width: 50%;
-    border-radius: 10px;   
+    width: 100%;
+    height: auto;
+    border-radius: 10px;  
+     
 }.rp-card > img{
     width: 100%;
     padding: none;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }.rp-card > p{
-    width: 50%;
-}.rp-card > p, h2, h3{
-    padding-left: 1rem;
+    width: 100%;
+}.rp-card > p, .rp-title-card, h3{
+    padding-left: 10px;
+    padding-right: 20px;
     padding-top: 3px;
     padding-bottom: 3px;
 }.rp-card:hover{
@@ -134,9 +137,20 @@ header{
     padding: 20px 20px 20px 20px;
 
 }
-
 .categorie{
     color: #02A28F;
 }.dt-card{
     color:#616161;
+}
+
+.rp-card-content{
+    padding: 1rem 2rem;
+}
+
+.rp-card-content > h2{
+    font-size: 25px;
+} 
+
+.recent-posts{
+    margin-left:7vh ;
 }
