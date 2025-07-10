@@ -14,15 +14,12 @@ h{
     display: grid;
     grid-auto-flow: column;
     grid-auto-columns: 1fr;
-    gap: 4rem;
 }
 
 header{
     padding: 10px;
     background-color: #02A28F;
     color: white;
-
-
 }  
 
 
@@ -35,7 +32,7 @@ header{
 }
 
 .side-cards{
-    margin-top: 1.7rem;
+    margin-top: 1.5rem;
     margin-right: 20px;
     margin-left: 150px;
 }
@@ -182,6 +179,12 @@ header{
         margin: 1rem;
         
     }
+
+    .side-cards{
+        margin: 1rem,6rem,2rem, 1rem;
+        gap: 2rem
+    }
+
 
 
     .rp-cards-row{
