@@ -129,11 +129,25 @@ header{
     transition-duration: 0.5s;
 }
 
-#categories-title   {
-    width: 75%;
+#categories-title{
+    width: 65%;
     border-radius: 10px;
-    padding: 20px 20px 20px 20px;
+    padding: 20px,0 , 20px, 10px;
 
+
+}.categories{
+    margin-left: 9rem;
+}
+
+.categories-name{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.categories-name > h3{
+    font-weight: 600;
+    color: #616161;
 }
 .categorie{
     color: #02A28F;
