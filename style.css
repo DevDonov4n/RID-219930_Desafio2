@@ -20,12 +20,18 @@ header{
     padding: 10px;
     background-color: #02A28F;
     color: white;
-}  
+
+}
+
+#title{
+    margin-left: 70px;
+}
 
 
 .imageBanner > img{
     border-radius: 10px;
     width: 100%;
+    margin: 0 2rem 0 60px;
 }.imageBanner > img:hover{
     transform: translateY(-7px);
     transition-duration: 0.5s;
@@ -34,17 +40,18 @@ header{
 .side-cards{
    display: flex;
    flex-direction: column;
+   gap: 1em;
+   margin: 1rem 0 2rem 4rem;
 }
 
 .side-cards > h2{
     background-color: #02A28F;
     color: white;
     border-radius: 10px;
-    padding-left: 1rem;
-    height: 3rem;
-    padding-top: 5px;
     margin-right: 30px;
-    width: 69%;
+    width: 80%;
+    align-self: baseline;
+    padding: 10px;
 }
 
 .cards{
@@ -53,10 +60,10 @@ header{
     width: 100%;
     gap: 1rem;
     box-shadow: #0001 4px 4px 4px 4px;
-    width: 70%;
+    width: 80%;
     border-radius: 10px;
     margin-top: 1rem;
-    padding: 2px;
+    padding: 5px;
 
 }.cards > img{
     border-radius: 10px;
@@ -64,8 +71,9 @@ header{
     margin-top: 1.5rem;
     margin-left: 1rem;
     margin-bottom: 1rem;
-}.cards > h2{
+}.cards > #card-title{
     margin-top: 15rem;
+    font-size: 1px;
 }.cards:hover{
     cursor:pointer;
     box-shadow: #02A28F 0 0 5px ;
@@ -98,7 +106,7 @@ header{
     margin-top: 1rem;
     margin-bottom: 1rem;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-template-columns: repeat(2, 1fr);
     gap: 20px;
     width: 100%;
 }
