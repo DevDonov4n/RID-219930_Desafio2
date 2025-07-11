@@ -235,11 +235,17 @@ header{
     
     }
 
-    .categories{
-        justify-content: center;
-        justify-items: center;
+    .categories-name{
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+    }
+    .categories-name > li{
+        display: flex;
+        justify-content: space-between;
+        width: 25rem; 
+        margin-bottom: 8px;
     }
 }
-/*
-    Preciso fazer o display do blog em uma coluna
-*/
