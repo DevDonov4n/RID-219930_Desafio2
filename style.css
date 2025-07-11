@@ -32,9 +32,8 @@ header{
 }
 
 .side-cards{
-    margin-top: 1.5rem;
-    margin-right: 20px;
-    margin-left: 150px;
+   display: flex;
+   flex-direction: column;
 }
 
 .side-cards > h2{
@@ -132,17 +131,25 @@ header{
 #categories-title{
     width: 65%;
     border-radius: 10px;
-    padding: 20px,0 , 20px, 10px;
+    padding: 20px, 30px , 20px, 10px;
+}
 
-
-}.categories{
+.categories{
     margin-left: 9rem;
 }
 
 .categories-name{
+    list-style: none;
+    padding: 0;
+    margin: 0;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+}
+.categories-name > li{
+    display: flex;
     justify-content: space-between;
+    width: 25rem; 
+    margin-bottom: 8px;
 }
 
 .categories-name > h3{
@@ -182,6 +189,7 @@ header{
         display: flex;
         flex-direction: column;
         justify-content: center;
+        align-items: center;
     }
 
     .imageBanner > img{
@@ -195,8 +203,17 @@ header{
     }
 
     .side-cards{
-        margin: 1rem,6rem,2rem, 1rem;
-        gap: 2rem
+       align-items: center;
+       margin: 2rem, 1rem;
+    }
+
+    .side-cards > h2 {
+        background-color: #02A28F;
+        color: white;
+        border-radius: 10px;
+        width: 100%;
+        text-align: center;
+        padding: 2vh;
     }
 
 
@@ -218,7 +235,7 @@ header{
 
     #recent-posts-header {
         display: flex;
-        width: 90%;
+        
         margin-left: 2px;
         border-radius: 10px;
         justify-self: center;
@@ -248,4 +265,18 @@ header{
         width: 25rem; 
         margin-bottom: 8px;
     }
+
+    #categories-title{
+        width: 100%;
+        border-radius: 10px;
+        justify-self: center;
+    }
+
+    .categories{
+        justify-items: center;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+
 }
