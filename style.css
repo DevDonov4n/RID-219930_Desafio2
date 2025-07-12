@@ -143,7 +143,7 @@ header{
 }
 
 .categories{
-    margin-left: 9rem;
+    margin-left: 3rem;
 }
 
 .categories-name{
@@ -211,8 +211,8 @@ header{
     }
 
     .side-cards{
-       align-items: center;
-       margin: 2rem, 1rem;
+       justify-content: center;
+       
     }
 
     .side-cards > h2 {
@@ -222,6 +222,7 @@ header{
         width: 100%;
         text-align: center;
         padding: 2vh;
+        align-self: center;
     }
 
 
