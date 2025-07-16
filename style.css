@@ -217,7 +217,7 @@ header{
 
     .side-cards{
        justify-content: center;
-       
+       align-content: center;
     }
 
     .side-cards > h2 {
@@ -230,7 +230,9 @@ header{
         align-self: center;
     }
 
-
+    .cards{
+        align-self: center;
+    }
 
     .rp-cards-row{
         justify-content: center;
