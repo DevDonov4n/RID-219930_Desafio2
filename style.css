@@ -217,16 +217,21 @@ header{
 
     .side-cards > h2 {
         background-color: #02A28F;
-        color: white;
+        color: #ffffff;
         border-radius: 10px;
-        width: 100%;
+        width: 90%;
         text-align: center;
         padding: 10px;
         align-self: center;
+        
     }
 
     #title-post-cards{
         align-content: center;
+    }
+
+    .cards-title{
+        font-size: clamp(1rem, 4vw, 2rem);
     }
 
     .side-cards {
