@@ -193,6 +193,10 @@ header{
         width: 100%;
     } 
 
+    #title {
+     margin-left: 0;
+    }
+
     .container{
         display: flex;
         flex-direction: column;
@@ -203,11 +207,12 @@ header{
     .imageBanner > img{
         border-radius: 10px;
         width: 100%;
-        
+        margin: 0;
     }
     .imageBanner{
         margin: 1rem;
         
+        justify-self: center;
     }
 
     .side-cards{
