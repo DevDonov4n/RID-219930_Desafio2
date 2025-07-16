@@ -191,6 +191,8 @@ header{
         justify-content: center;
         text-align: center;
         width: 100%;
+        font-size: small;
+        justify-content: space-between;
     } 
 
     #title {
@@ -202,6 +204,10 @@ header{
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+
+    #recent-posts-header {
+        width: 90%;
     }
 
     .imageBanner > img{
