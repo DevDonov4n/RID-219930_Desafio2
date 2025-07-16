@@ -221,14 +221,20 @@ header{
         border-radius: 10px;
         width: 100%;
         text-align: center;
-        padding: 2vh;
+        padding: 10px;
         align-self: center;
+    }
+
+    #title-post-cards{
+        align-content: center;
     }
 
     .side-cards {
         display: flex;
         flex-direction: column;
         gap: 1em;
+        margin: 0 0 2rem 0;
+        width: 100%;
     }
 
     .cards{
