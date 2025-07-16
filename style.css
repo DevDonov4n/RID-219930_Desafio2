@@ -215,11 +215,6 @@ header{
         justify-self: center;
     }
 
-    .side-cards{
-       justify-content: center;
-       align-content: center;
-    }
-
     .side-cards > h2 {
         background-color: #02A28F;
         color: white;
@@ -228,6 +223,12 @@ header{
         text-align: center;
         padding: 2vh;
         align-self: center;
+    }
+
+    .side-cards {
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
     }
 
     .cards{
