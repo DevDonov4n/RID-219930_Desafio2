@@ -302,16 +302,22 @@ header{
     }
 
     #categories-title{
-        width: 100%;
+        width: 110%;
         border-radius: 10px;
         justify-self: center;
     }
 
     .categories{
         justify-items: center;
-        margin-left: 1rem;
-        margin-right: 1rem;
+        justify-content: center;
+        margin-left: 0;
     }
 
-
+    .categories-name > li {
+        display: flex;
+        justify-content: space-between;
+        width: 20rem;
+        margin-bottom: 8px;
+    }
+    
 }
