@@ -13,7 +13,7 @@ h{
 .container{
     display: flex;
     flex-direction: row;
-    gap: 1rem;
+    gap: 4rem;
 }
 
 header{
@@ -24,8 +24,13 @@ header{
 
 }
 
+main{
+    margin: 1rem 7rem;
+}
+
+
 #title{
-    margin-left: 70px;
+    margin-left: 6rem;
 }
 
 
@@ -35,6 +40,7 @@ header{
     height: auto;
     aspect-ratio: 16 / 9; /* formato largo por padrão */
     object-fit: cover;
+    
 }.imageBanner > img:hover{
     transform: translateY(-7px);
     transition-duration: 0.5s;
@@ -91,11 +97,12 @@ header{
 
 #recent-posts-header{
     display: flex;
-    width: 98%;
+    width: 100%;
     border-radius: 10px;
     justify-items: center;
     align-items: center;
     justify-content: space-between;
+    
     
     
 } #recent-posts-header > h1, a{
@@ -177,9 +184,7 @@ header{
     font-size: 25px;
 } 
 
-.recent-posts{
-    margin-left:7vh ;
-}
+
 
 @media only screen and (max-width: 768px) {
     
