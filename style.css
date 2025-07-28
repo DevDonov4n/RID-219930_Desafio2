@@ -11,9 +11,9 @@ h{
 }
 
 .container{
-    display: flex;
-    flex-direction: row;
-    gap: 4rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 1em;
 }
 
 header{
@@ -25,9 +25,14 @@ header{
 }
 
 main{
-    margin: 1rem 7rem;
+    margin: 1rem 2rem;
 }
 
+section{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 2rem;
+}
 
 #title{
     margin-left: 6rem;
@@ -37,9 +42,6 @@ main{
 .imageBanner > img{
     border-radius: 10px;
     width: 100%;
-    height: auto;
-    aspect-ratio: 16 / 9; /* formato largo por padrão */
-    object-fit: cover;
     
 }.imageBanner > img:hover{
     transform: translateY(-7px);
@@ -50,7 +52,7 @@ main{
    display: flex;
    flex-direction: column;
    gap: 1em;
-   margin: 1rem 0 2rem 4rem;
+   margin: -2px 0 2rem 4rem;
 }
 
 .side-cards > h2{
@@ -58,9 +60,13 @@ main{
     color: white;
     border-radius: 10px;
     margin-right: 30px;
-    width: 80%;
+    width: 100%;
     align-self: baseline;
     padding: 10px;
+}
+
+.cards-title{
+    font-size: 1rem;
 }
 
 .cards{
@@ -69,10 +75,10 @@ main{
     width: 100%;
     gap: 1rem;
     box-shadow: #0001 4px 4px 4px 4px;
-    width: 80%;
+    width: 100%;
     border-radius: 10px;
-    margin-top: 1rem;
-    padding: 5px;
+    margin-top: 10px;
+    padding: 1px;
 
 }.cards > img{
     border-radius: 10px;
@@ -150,7 +156,10 @@ main{
     border-radius: 10px;
     padding: 20px, 30px , 20px, 10px;
 }
-    
+#categories-title > h1{
+    padding: 10px;
+    font-size:larger;
+}  
 
 .categories-name{
     list-style: none;
