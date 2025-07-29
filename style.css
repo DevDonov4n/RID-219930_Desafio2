@@ -40,12 +40,19 @@ section{
 }
 
 
-.imageBanner > img{
+.imageBanner{
+    background-image: url(img/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     border-radius: 10px;
     width: 100%;
-    width: 50rem;
+    color: #ffffff;
+    padding: 10rem 0;
     
-}.imageBanner > img:hover{
+}
+
+
+.imageBanner:hover{
     transform: translateY(-7px);
     transition-duration: 0.5s;
 }
