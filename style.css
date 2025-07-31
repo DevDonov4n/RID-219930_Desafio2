@@ -26,15 +26,16 @@ header{
 
 }
 
-main{
-    justify-content: center;
-    
-}
 
 section{
     display: flex;
     flex-direction: column;
-    margin: 1rem 2rem;
+    margin: 1rem ;
+    margin-right: -9rem;
+}
+
+aside{
+    margin-left: 14rem;
 }
 
 #title{
@@ -111,8 +112,9 @@ section{
     gap: 1rem;
     box-shadow: 0 8px 32px 0 #dfdede;
     border-radius: 10px;
-    margin-top: 10px;
+    margin-top: 1.5rem;
     padding: 1px;
+    
 
 }.cards > img{
     border-radius: 10px;
@@ -165,6 +167,7 @@ section{
     width: 100%;
     height: auto;
     border-radius: 10px;  
+    object-fit: cover;
      
 }.rp-card > img{
     width: 100%;
