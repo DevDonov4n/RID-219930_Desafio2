@@ -241,6 +241,14 @@ body{
     justify-content: center;
 }
 
+aside{
+    margin-left: 0;
+}
+
+section{
+    margin: 0;
+}
+
     header{
         padding: 10px;
         background-color: #02A28F;
@@ -274,8 +282,7 @@ body{
     }
 
     .imageBanner{
-        margin: 1rem;
-        
+        margin-bottom: 1rem;
         justify-self: center;
     }
 
@@ -303,7 +310,7 @@ body{
         display: flex;
         flex-direction: column;
         gap: 1em;
-        margin: 0 0 2rem 0;
+        margin: 0;
         width: 100%;
     }
 
@@ -351,12 +358,7 @@ body{
         display: flex;
         flex-direction: column;
     }
-    .categories-name > li{
-        display: flex;
-        justify-content: space-between;
-        width: 25rem; 
-        margin-bottom: 8px;
-    }
+   
 
     #categories-title{
         width: 95%;
@@ -374,7 +376,7 @@ body{
     .categories-name > li {
         display: flex;
         justify-content: space-between;
-        width: 18rem;
+        width: 23rem;
         margin: 5px 2rem;
     }
     
